@@ -8,6 +8,8 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
+<body>
+	
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:#95EA95; border-color:#79b079;">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#">TITLE HERE</a>
@@ -35,7 +37,6 @@
 		 </div> -->
 </nav>
 
-<body>
 	<!-- C A R O U S E L-->
 	<div id="myCarousel" class="carousel slide" role="listbox" style=" width:100%; height: 500px !important; overflow:hidden;">
 		<!-- Carousel indicators -->
