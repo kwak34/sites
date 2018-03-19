@@ -4,17 +4,15 @@
 <title> TEST TITLE</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet">
 
-<body>
-	
+<body>	
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:#95EA95; border-color:#79b079;">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#">TITLE HERE</a>
 			<a class="navbar-brand" href="#">
-    				<img src="/img/logo-pl.jpg" width="30" height="30" alt="">
+    				<img src="/img/logo-pl.jpg" width="40" height="40" alt=""> TITLE
   			</a>
 		</div>
 		
