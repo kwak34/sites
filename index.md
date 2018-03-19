@@ -12,7 +12,7 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:#95EA95; border-color:#79b079;">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#">
-    				<img src="/img/logo-pl.jpg" width="40" height="40" alt=""> TITLE
+    				<img src="/img/logo-pl.jpg" width="30" height="30" alt="">
   			</a>
 		</div>
 		
