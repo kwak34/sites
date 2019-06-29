@@ -1,58 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head></head>
-<title> Barngay Palatiw</title>
+<head>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link href="css/fontawesome-all.css" rel="stylesheet">
+
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<title> Barangay Palatiw</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Bootstrap -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<link href="css/font-awesome.min.css" rel="stylesheet">
-<link href="css/bootstrap.css" rel="stylesheet">
+
 
 	
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:#5b8c62;">
-		<div class="navbar-header">
-				<a class="navbar-brand" href="#">
-	    				<img src="img/logo.png" height="150" width="150" alt="">
-	  			</a>
-  			<h3 class="navbar-text" style="color:white;">Barangay Palatiw</h3>
-		</div>
-		
-		<div>
-			<p class="navbar-text navbar-right" style="color: white; margin-right:30px;">
-				
-				<a class="nav-bar link" style="color: white" href="#">About Us</a>
-				<a class="nav-bar link" style="color: white" href="hme_proj.html">Projects</a>
+
+	<div class="navbar-header">
+			<a class="navbar-brand" href="index.html">
+    				<img src="img/logo.png" height="140" width="140" alt="">
+  			</a>
+			<h3 class="navbar-text" style="color:white;"><b>Barangay Palatiw</b></h3>
+	</div>
+	
+	
+	<div>
+		<ul class="nav navbar-nav">
+			
+			<p class="navbar-text navbar-left" style="padding-top: 5px;">
+				<a class="navbar-link" href="projects.html" style="color: white;">Projects</a>
 			</p>
-		</div>
-		<!-- <div>
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">iOS</a></li>
-				<li><a href="#">SVN</a></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-					Java <b class="caret"></b>
-					</a>
-					<ul class="dropdown-menu">
-						<li><a href="#">jmeter</a></li>
-						<li><a href="#">EJB</a></li>
-						<li><a href="#">Jasper Report</a></li>
-						<li class="divider"></li>
-						<li><a href="#">Separated link</a></li>
-						<li class="divider"></li>
-						<li><a href="#">One more separated link</a></li>
-					</ul>
-				</li>
-			</ul>
-		 </div> -->
+
+			<p class="navbar-text navbar-left" style="padding-top: 5px;">
+				<a class="navbar-link" href="about.html" style="color: white;">About Us</a>
+			</p>	
+
+		</ul>
+	 </div>
+
+	 <div>
+		<p class="navbar-text navbar-right" style="color: white; margin-right:30px;">
+			<span style="font-size: 15px;">Follow us | </span>
+			<!--FACEBOOK-->
+			<a href="https://web.facebook.com/BRGYPalatiwOFC/"><i href="#"class="fab fa-facebook" style="font-size: 30px;"></i></a>
+			<!--Instagram-->
+			<a href="https://www.instagram.com/barangaypalatiw/"><i href="#"class="fab fa-instagram" style="font-size: 30px;"></i></a>
+		</p>
+	</div>
+
 </nav>
 
 <body style="background-color:#fff;">
+
+
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg" role="document">
+		    <div class="modal-content">
+		      <div class="modal-body">
+		        <img src="img/map.jpg" class="media-object" width="100%">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+	</div>
+
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 
-			<div id="myCarousel" class="carousel slide" role="listbox" style=" width:100%; height: 500px !important; overflow:hidden;">
+
+			<div id="myCarousel" class="carousel slide" role="listbox" style=" width:100%; height: 550px !important; overflow:hidden;">
 
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -63,19 +85,19 @@
 				
 				<div class="carousel-inner">
 					<div class="item active">
-						<img class="img-responsive center-block" src="img/sld1.jpg" width="100%" alt="sld1">
+						<img class="img-responsive center-block" src="img/Slideshow Front.jpg" width="100%" alt="sld1">
 					</div>
 					
 					<div class="item">
-						<img class="img-responsive center-block" src="img/sld2.jpg" width="100%" alt="Ssld2">
+						<img class="img-responsive center-block" src="img/Slideshow Pic 2.1.jpg" width="100%" alt="Ssld2">
 					</div>
 				
 					<div class="item">
-						<img class="img-responsive center-block" src="img/sld3.jpg" width="100%" alt="sld3">
+						<img class="img-responsive center-block" src="img/Slideshow Pic 3.jpg" width="100%" alt="sld3">
 					</div>
 
 					<div class="item">
-						<img class="img-responsive center-block" src="img/sld4.jpg"  width="100%" alt="sld4">
+						<img class="img-responsive center-block" src="img/SUMMIT VAWC.jpg"  width="100%" alt="sld4">
 					</div>
 				</div>
 			
@@ -96,13 +118,18 @@
 
 	<div class="container text-center"> 
 		<h3> MISSION</h3>
-		<h4> "Palatiw Barangay Council is committed to have a community that is peaceful, <br>
+		<hr style="width: 50%;">
+			<h4> <i class="fas fa-quote-left"></i>  
+			Palatiw Barangay Council is committed to have a community that is peaceful, <br>
 			safe, clean and lived by healthy, educated, globally competitive resident  <br>
-			through active participation of the constituents."</h4>
+			through active participation of the constituents.
+			<i class="fa fa-quote-right"></i>
+			</h4>
+		<hr style="width: 50%;">
 	</div>	
 	
 	<div class="row">
-		<div class="col-md-8" style="text-indent: 50px;">
+		<div class="col-md-8" >
 			<!--<div class="panel panel-default">
 				<div class="panel-heading">
 					<h3 class="panel-title">History</h3>
@@ -110,44 +137,48 @@
 				
 				<div class="panel-body"> -->
 					<h2>History</h2>
-					<p><b>Palatiw</b> is five kilometers away from EDSA and one kilometer away from the heart of downtown at the northwest side of Pasig. Very accessible because almost all kinds of transportation’s is present. Proximal to Pasig Public market, to Pasig City Hall, to hospitals like Pasig City General Hospital and Rizal Medical Center, to churches Like La Immaculada Concepcion Cathedral, San Agustin Parish, Jesus is Lord God and Savior Charismatic Church, and Iglesia ni Kristo Church.</p>
+					<p style="text-indent: 30px;"><b>PALATIW</b> was the third among four first Barangays of Pasig. The Barangays of Malinao, Bambang, Palatiw and Tipas were awarded by Legaspi to one of his trusted Lieutenants, Don Juan Dela Isla on November 14,1571 when the Pasig mission was made a Parish under the jurisdiction of Tondo on January 20,1572 it only stated 10 Visitas namely:hanggang sa pangongontrata ng trabaho.These four barangays were derived from the name of the Olive Tree and the original name of Palatiw was PALATIA.</p>
+					<P>Source – Pasig City Portrait of new Metropolis 2000. San Nicolas, Polo, Pinagbuhatan, PALATIW, Maybunga, Sagad, Bambang, Malinao, Tipas, Mandalava, Botin and Agoho. In like manner, the names of  Barangays of Pasig echo the largesse of nature that the blessed the the land. The name of Barangay Sagad. Which was found west of the once navigable PALATIW River means edge.</P>
 				<!--</div>	
 			</div>-->
 
-			<div class="panel panel-default">
+			<!--<div class="panel panel-default">
 				<div class="panel-heading">
 					<h3 class="panel-title">Projects</h3>
 				</div>
 				
 				<div class="panel-body">
-					Morbi suscipit porta lectus, at viverra urna dignissim eu. 
-					Fusce quam quam, condimentum sed interdum quis, aliquet et odio. 
-					Cras sed erat ac leo faucibus dignissim nec vel nulla. 
-					Vivamus pellentesque luctus mi nec rutrum. 
-					In sed felis sit amet nisi consectetur iaculis in ac sem. 
-					Sed consectetur lobortis massa, eu finibus nisi rutrum id. 
-					Aenean cursus, lorem vitae tempus semper, lacus risus gravida dui, non semper metus odio sit amet nisl. 
-					Aenean congue, sapien a dictum efficitur, lectus mauris aliquet eros, vel rutrum purus nisl non metus. 
-					Quisque id ornare purus. Suspendisse sed aliquet ligula.
+				-->
+				<h2 text-align="center">Projects</h2>
+					<img src="img/Slideshow Pic 2.jpg" class="media-object" width="100%">
+					<p style="text-indent: 30px;">
+					<b>BARANGAY PALATIW COMMUNITY POCKET PLAYGROUND AND GARDEN - THE MAKING.</b> Started two weeks ago and still on its upgrading stage. Community gardens have many benefits to our society. They fill our need for physical activity, social interaction at times through play, and contact with nature. P/B Dinah Guevarra and In House Artist Antonio Dong Caliwag are the authors of the project. This is in line with the Women’s Month 2018 as part of the Serbisyong Publiko for the women of Palatiw.
+					</p>
 
-					<a href="hme_proj.html">Learn More >>></a>
-				</div>	
-			</div>	
+					<img src="img/eyecare4u.jpg" class="media-object" width="100%">
+					<p style="text-indent: 30px;">
+					<b>BARANGAY PALATIW "EYE CARE FOR YOU PROGRAM" </b>simultaneous with Barangay Mo,Guapo Clean Up Drive Program through the initiative of Barangay Palatiw Council led by P/B Dinah Guevarra Family and Children Commitee Chairman Kgd. Al Cruz and her behalf Cruz Jean with Disaster Preparedness Czar Eriberto Guevara. Happened on March 17,2018 at Jasmin Compound and Villa Tech. 100 reading glasses, 20 glasses for far sighted and 10 for children has been given free for Palatiw Constituents.
+					</p>
+
+					<img src="img/Kita Kita Project.png" class="media-object" width="100%">
+					<p style="text-indent: 30px;">
+					<b>KITA KITA PROJECT | </b> Barangay Palatiw Livelihoods & Craft Entrepreneurship Program Initiated by P/B Dinah Guevarra on March 15,2018 supported and sponsored by chosen students St. Paul College Pasig - Fr. Louis Chauvet Foundation School targets women from economically weaker backgrounds and trains them in a craft-based skill. They strongly believe that women are the backbone of society, and if empowered to be financially independent, they can sustain their families and ensure education for their children, improve standards of living, and access better healthcare.
+					</p>
+				<!--</div>	
+			</div>	-->
 		</div>
 
 		<div class="col-md-4">
-			<!--<div class="panel panel-midnight">
+			<div class="panel panel-midnight">
 				<div class="panel-heading">
 					<h3 class="panel-title"><span class="glyphicon glyphicon-calendar"></span>   Upcoming Events</h3>
 
 				</div>
 				
 				<div class="panel-body">
-					<h4>APR 12  |  Event Title</h4> Event Details 
-					<hr  />
-					<h4>APR 15</h4> Event Details
+					<h4>APR 13, 2018 | OPERATION TULI</h4> 8-12 noon , PALATIW BGY. HALL
 				</div>	
-			</div>-->
+			</div>
 
 			<div class="panel panel-midnight">
 				<div class="panel-heading">
@@ -157,7 +188,7 @@
 				<div class="panel-body">
 					<div class="media">
 					  <div class="media-left">
-					    <img src="img/person_placeholder.jpg" class="media-object" style="width:60px">
+					    <img src="img/Dinah G.jpg" class="media-object" style="width:60px">
 					  </div>
 					  <div class="media-body">
 					    <h4 class="media-heading">Guevarra, Dinah Raymundo</h4>
@@ -179,7 +210,7 @@
 
 					<div class="media">
 					  <div class="media-left">
-					    <img src="img/person_placeholder.jpg" class="media-object" style="width:60px">
+					    <img src="img/Roby Hizon.jpg" class="media-object" style="width:60px">
 					  </div>
 					  <div class="media-body">
 					    <h4 class="media-heading">Hizon, Robby Matri</h4>
@@ -201,7 +232,7 @@
 
 					<div class="media">
 					  <div class="media-left">
-					    <img src="img/person_placeholder.jpg" class="media-object" style="width:60px">
+					    <img src="img/Al Cruz.jpg" class="media-object" style="width:60px">
 					  </div>
 					  <div class="media-body">
 					    <h4 class="media-heading">Cruz, Aldwin</h4>
@@ -212,7 +243,7 @@
 
 					<div class="media">
 					  <div class="media-left">
-					    <img src="img/person_placeholder.jpg" class="media-object" style="width:60px">
+					    <img src="img/RR Silva.jpg" class="media-object" style="width:60px">
 					  </div>
 					  <div class="media-body">
 					    <h4 class="media-heading">Sylva, Ronald Ryan Velasco</h4>
@@ -223,7 +254,7 @@
 
 					<div class="media">
 					  <div class="media-left">
-					    <img src="img/person_placeholder.jpg" class="media-object" style="width:60px">
+					    <img src="img/Chester Guevarra.jpg" class="media-object" style="width:60px">
 					  </div>
 					  <div class="media-body">
 					    <h4 class="media-heading">Guevarra, Chester Chiapco</h4>
@@ -234,20 +265,49 @@
 
 					<div class="media">
 					  <div class="media-left">
-					    <img src="img/person_placeholder.jpg" class="media-object" style="width:60px">
+					    <img src="img/Boy Licsi.jpg" class="media-object" style="width:60px">
 					  </div>
 					  <div class="media-body">
 					    <h4 class="media-heading">Licsi, Jaime Caballero</h4>
 					    <p>Barangay Kagawad</p>
 					  </div>
-					 <hr /> 
 					</div>
 				</div>	
-			</div>		
+			</div>
+
+
+			<div class="panel panel-midnight">
+				<div class="panel-heading">
+					<h3 class="panel-title">FLOOD HAZARD MAP</h3>
+
+				</div>
+				
+				<div class="panel-body">
+					<!-- Button trigger modal -->
+					<a href="#exampleModal" role="button" data-toggle="modal" data-target="#exampleModal">
+				  		<img src="img/map.jpg" class="media-object" width="100%">
+					</a>
+				</div>	
+			</div>
+
 		</div>
 	</div>
 		
 	</div>
+
+<hr />
+<!--
+<div class="container">
+	<div class="row">
+		You can follow us on:
+	</div>
+</div>
+-->
+<script>
+
+</script>
+<footer style="text-align:center; background-color: gray;"> Barangay Palatiw 2018</footer>
+
 </body>
 </html>
 
